@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saudafy Jhansi Expansion | Investor Pitch & Financial Model</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        saudaGreen: {
+                            DEFAULT: '#16a34a',
+                            dark: '#15803d',
+                            light: '#22c55e',
+                            bg: '#f0fdf4'
+                        },
+                        saudaDark: '#0f172a',
+                        saudaCard: '#1e293b'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-saudaGreen selection:text-white">
+
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-saudaGreen flex items-center justify-center font-extrabold text-2xl text-white shadow-lg">S</div>
+                <div>
+                    <span class="text-xl font-bold tracking-tight text-white">Saudafy</span>
+                    <span class="text-xs block text-saudaGreen font-medium">Jhansi Expansion Blueprint</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#executive" class="hover:text-saudaGreen transition-colors">Executive Summary</a>
+                <a href="#zoning" class="hover:text-saudaGreen transition-colors">Jhansi Zoning</a>
+                <a href="#economics" class="hover:text-saudaGreen transition-colors">Unit Economics</a>
+                <a href="#financials" class="hover:text-saudaGreen transition-colors">CapEx & OpEx</a>
+                <a href="#calculator" class="hover:text-saudaGreen transition-colors">Interactive Model</a>
+            </nav>
+            <div>
+                <a href="#calculator" class="bg-saudaGreen hover:bg-saudaGreen-dark text-white font-semibold px-5 py-2.5 rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5 text-sm">
+                    Simulate Investor ROI
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="gradient-hero relative overflow-hidden py-24 lg:py-32 border-b border-slate-800">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-saudaGreen/10 border border-saudaGreen/30 text-saudaGreen text-sm font-semibold mb-6">
+                <i data-lucide="trending-up" class="w-4 h-4"></i>
+                <span>Proven Mauranipur Playboard • Replicating in Jhansi (Urban Pop 650K+)</span>
+            </div>
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6">
+                Capturing <span class="text-saudaGreen">Jhansi's</span> Hyperlocal Economy with <span class="underline decoration-saudaGreen decoration-wavy">Zero Cash Burn</span>
+            </h1>
+            <p class="max-w-3xl mx-auto text-lg sm:text-xl text-slate-300 mb-10">
+                A lean, high-margin food and grocery delivery model engineered for Tier-2 & Tier-3 Uttar Pradesh. Low initial CapEx of <span class="text-white font-bold">₹1.64 Lakhs</span> with rapid break-even by Month 2 and soaring monthly profitability.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#calculator" class="bg-saudaGreen hover:bg-saudaGreen-dark text-white font-bold px-8 py-4 rounded-xl shadow-2xl transition-all transform hover:scale-105 flex items-center justify-center space-x-2">
+                    <span>Explore Financial Projections</span>
+                    <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                </a>
+                <a href="#zoning" class="bg-slate-900/80 hover:bg-slate-800 text-slate-200 border border-slate-700 font-semibold px-8 py-4 rounded-xl transition-all flex items-center justify-center space-x-2">
+                    <span>View 4-Zone Map</span>
+                    <i data-lucide="map" class="w-5 h-5"></i>
+                </a>
+            </div>
+
+            <!-- Key Metrics Grid -->
+            <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto">
+                <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-2xl shadow-xl backdrop-blur">
+                    <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Initial CapEx</div>
+                    <div class="text-3xl font-extrabold text-white">₹1.64L</div>
+                    <div class="text-saudaGreen text-xs mt-1 font-medium">Lean Launch Setup</div>
+                </div>
+                <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-2xl shadow-xl backdrop-blur">
+                    <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Month-2 Profit</div>
+                    <div class="text-3xl font-extrabold text-saudaGreen">₹52,000+</div>
+                    <div class="text-slate-400 text-xs mt-1 font-medium">At 3,000 Orders/mo</div>
+                </div>
+                <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-2xl shadow-xl backdrop-blur">
+                    <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Net Margin/Order</div>
+                    <div class="text-3xl font-extrabold text-white">₹13</div>
+                    <div class="text-saudaGreen text-xs mt-1 font-medium">~23% Gross Revenue</div>
+                </div>
+                <div class="bg-slate-900/90 border border-slate-800 p-6 rounded-2xl shadow-xl backdrop-blur">
+                    <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Total Fleet</div>
+                    <div class="text-3xl font-extrabold text-white">16 Riders</div>
+                    <div class="text-saudaGreen text-xs mt-1 font-medium">12 Salaried + 4 Freelance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="zoning" class="py-24 bg-slate-900 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">Jhansi Geographic Zoning & Fleet Architecture</h2>
+                <p class="text-slate-400">Covering Jhansi's ~160 sq. km footprint with 4 high-density operational zones (radiating 4–4.5 km from key commercial and student hubs) guaranteeing 60-minute deliveries.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <!-- Zone Visual Map Representation -->
+                <div class="bg-slate-950 border border-slate-800 p-8 rounded-3xl relative overflow-hidden shadow-2xl">
+                    <div class="absolute -right-10 -bottom-10 w-60 h-60 bg-saudaGreen/5 rounded-full blur-3xl pointer-events-none"></div>
+                    <div class="text-center mb-6">
+                        <span class="text-xs uppercase tracking-widest text-saudaGreen font-bold bg-saudaGreen/10 px-3 py-1 rounded-full">Jhansi City Grid (160 sq. km)</span>
+                    </div>
+                    <!-- Zone Grid Diagram -->
+                    <div class="grid grid-cols-2 gap-4 relative">
+                        <!-- Zone 1 -->
+                        <div class="bg-slate-900 border border-slate-700/80 p-5 rounded-2xl hover:border-saudaGreen transition-all group">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="w-8 h-8 rounded-lg bg-saudaGreen/20 text-saudaGreen font-bold flex items-center justify-center text-sm">Z1</span>
+                                <span class="text-xs text-slate-400 font-medium">3 Salaried + 1 Freelance</span>
+                            </div>
+                            <h3 class="font-bold text-white text-lg group-hover:text-saudaGreen transition-colors">North Jhansi</h3>
+                            <p class="text-xs text-slate-400 mt-1">Civil Lines, Cantonment Belt, Railway Station Vicinity (~20 Partners)</p>
+                        </div>
+                        <!-- Zone 2 -->
+                        <div class="bg-slate-900 border border-slate-700/80 p-5 rounded-2xl hover:border-saudaGreen transition-all group">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="w-8 h-8 rounded-lg bg-saudaGreen/20 text-saudaGreen font-bold flex items-center justify-center text-sm">Z2</span>
+                                <span class="text-xs text-slate-400 font-medium">3 Salaried + 1 Freelance</span>
+                            </div>
+                            <h3 class="font-bold text-white text-lg group-hover:text-saudaGreen transition-colors">East Jhansi (Core)</h3>
+                            <p class="text-xs text-slate-400 mt-1">Sadar Bazaar, Manik Chowk, Elite Crossing Commercial Hub (~30 Partners)</p>
+                        </div>
+                        <!-- Zone 3 -->
+                        <div class="bg-slate-900 border border-slate-700/80 p-5 rounded-2xl hover:border-saudaGreen transition-all group">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="w-8 h-8 rounded-lg bg-saudaGreen/20 text-saudaGreen font-bold flex items-center justify-center text-sm">Z3</span>
+                                <span class="text-xs text-slate-400 font-medium">3 Salaried + 1 Freelance</span>
+                            </div>
+                            <h3 class="font-bold text-white text-lg group-hover:text-saudaGreen transition-colors">South Jhansi</h3>
+                            <p class="text-xs text-slate-400 mt-1">Jhansi Fort Outskirts, Sipri Bazaar, Laxmi Gate (~25 Partners)</p>
+                        </div>
+                        <!-- Zone 4 -->
+                        <div class="bg-slate-900 border border-slate-700/80 p-5 rounded-2xl hover:border-saudaGreen transition-all group">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="w-8 h-8 rounded-lg bg-saudaGreen/20 text-saudaGreen font-bold flex items-center justify-center text-sm">Z4</span>
+                                <span class="text-xs text-slate-400 font-medium">3 Salaried + 1 Freelance</span>
+                            </div>
+                            <h3 class="font-bold text-white text-lg group-hover:text-saudaGreen transition-colors">West Jhansi (Student Belt)</h3>
+                            <p class="text-xs text-slate-400 mt-1">Bundelkhand University (BU), Medical College, Hansari (~20 Partners)</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400 font-medium">
+                        <span>Central Town Coordinator: 1 City Manager (₹10,000/mo)</span>
+                        <span class="text-saudaGreen font-bold">Total Initial Team: 13 Personnel</span>
+                    </div>
+                </div>
+
+                <!-- Explanation Cards -->
+                <div class="space-y-6">
+                    <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-xl bg-saudaGreen/10 text-saudaGreen flex items-center justify-center flex-shrink-0 font-bold">
+                                <i data-lucide="shield-check" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white mb-1">Fixed-Salary Fleet Model (₹7,000/mo)</h3>
+                                <p class="text-slate-400 text-sm leading-relaxed">Unlike metro gig apps that suffer from high attrition and surge pricing, Saudafy provides stable employment with guaranteed base salaries plus performance incentives. Ensures 100% reliability even during off-peak hours.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-xl bg-saudaGreen/10 text-saudaGreen flex items-center justify-center flex-shrink-0 font-bold">
+                                <i data-lucide="clock" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white mb-1">60-Minute Delivery Guarantee</h3>
+                            <p class="text-slate-400 text-sm leading-relaxed">By partitioning Jhansi like a pizza into 4 distinct operational zones, riders never cross the entire city. Each trip averages 2 to 4 km, executed easily within 20-25 minutes from pickup to doorstep.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-xl bg-saudaGreen/10 text-saudaGreen flex items-center justify-center flex-shrink-0 font-bold">
+                                <i data-lucide="zap" class="w-6 h-6"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-white mb-1">Scalable Student & Commercial Targeting</h3>
+                                <p class="text-slate-400 text-sm leading-relaxed">Zone 4 captures massive captive student demand around Bundelkhand University, while Zone 2 and 3 dominate the high-volume commercial markets of Sadar and Sipri Bazaar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="economics" class="py-24 bg-slate-950 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">Robust Unit Economics (Per Order)</h2>
+                <p class="text-slate-400">Every single order generated in Jhansi is immediately profitable from day one, built specifically for Tier-3 purchasing power.</p>
+            </div>
+
+            <!-- Revenue Breakdown Banner -->
+            <div class="bg-gradient-to-r from-slate-900 via-slate-900 to-slate-950 border border-slate-800 p-8 rounded-3xl shadow-2xl mb-12">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center divide-y md:divide-y-0 md:divide-x divide-slate-800">
+                    <div class="p-4">
+                        <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Average Order Value (AOV)</div>
+                        <div class="text-3xl font-extrabold text-white">₹158</div>
+                        <div class="text-slate-500 text-xs mt-1">Food & Grocery basket</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Vendor Commission (15-20%)</div>
+                        <div class="text-3xl font-extrabold text-saudaGreen">₹26</div>
+                        <div class="text-slate-500 text-xs mt-1">Primary revenue driver</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Delivery Fee (Min ₹20)</div>
+                        <div class="text-3xl font-extrabold text-white">₹20</div>
+                        <div class="text-slate-500 text-xs mt-1">Covers first 2 km (+₹15/km extra)</div>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-1">Platform Fee (Flat)</div>
+                        <div class="text-3xl font-extrabold text-white">₹10</div>
+                        <div class="text-slate-500 text-xs mt-1">100% platform revenue</div>
+                    </div>
+                </div>
+                <div class="mt-8 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-center sm:text-left">
+                    <div>
+                        <span class="text-slate-400 text-sm">Total Gross Platform Revenue per Order:</span>
+                        <div class="text-2xl font-extrabold text-saudaGreen">₹56 <span class="text-xs text-slate-400 font-normal">before delivery costs</span></div>
+                    </div>
+                    <div class="mt-4 sm:mt-0">
+                        <span class="inline-flex items-center px-4 py-2 rounded-xl bg-saudaGreen/10 border border-saudaGreen/30 text-saudaGreen font-bold text-sm">
+                            <i data-lucide="check-circle" class="w-4 h-4 mr-2"></i> Net Profit: ₹13 Per Order (~23% Margin)
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cost & Profit Breakdown Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl">
+                    <div class="w-12 h-12 rounded-xl bg-red-500/10 text-red-400 flex items-center justify-center font-bold mb-6">
+                        <i data-lucide="users" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Rider Cost per Order</h3>
+                    <div class="text-3xl font-extrabold text-red-400 mb-4">-₹33</div>
+                    <p class="text-slate-400 text-sm leading-relaxed">Allocates ₹30 from fixed rider monthly salaries plus ₹3 for incentive overhead on busy deliveries.</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center font-bold mb-6">
+                        <i data-lucide="fuel" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Fuel Cost per Order</h3>
+                    <div class="text-3xl font-extrabold text-orange-400 mb-4">-₹10</div>
+                    <p class="text-slate-400 text-sm leading-relaxed">Based on a 4 km average round trip per delivery at ₹2.5/km fuel efficiency.</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl border-saudaGreen/50 bg-slate-900/80 shadow-lg shadow-saudaGreen/5">
+                    <div class="w-12 h-12 rounded-xl bg-saudaGreen/20 text-saudaGreen flex items-center justify-center font-bold mb-6">
+                        <i data-lucide="trending-up" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Net Profit per Order</h3>
+                    <div class="text-3xl font-extrabold text-saudaGreen mb-4">+₹13</div>
+                    <p class="text-slate-300 text-sm leading-relaxed">Pure bottom-line operating profit retained per completed transaction before scale efficiencies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="financials" class="py-24 bg-slate-900 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">Initial CapEx & Monthly OpEx Model</h2>
+                <p class="text-slate-400">Designed for ultra-low capital expenditure with high local visibility through strategic outdoor hoarding placement.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Initial Setup Budget Table -->
+                <div class="bg-slate-950 border border-slate-800 p-8 rounded-3xl shadow-xl">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center">
+                        <i data-lucide="wallet" class="w-5 h-5 mr-3 text-saudaGreen"></i> Initial Launch Budget (CapEx)
+                    </h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center py-3 border-b border-slate-800 text-sm">
+                            <span class="text-slate-300">Team Salaries (Month 1 Base: 1 Mgr + 12 Riders)</span>
+                            <span class="font-bold text-white">₹94,000</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-slate-800 text-sm">
+                            <span class="text-slate-300">Outdoor Marketing (Billboards at Elite, Railway, Sipri)</span>
+                            <span class="font-bold text-white">₹35,000</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-slate-800 text-sm">
+                            <span class="text-slate-300">Working Capital & Contingency Buffer</span>
+                            <span class="font-bold text-white">₹20,000</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-slate-800 text-sm">
+                            <span class="text-slate-300">Merchant Onboarding Kits & Thermal Printers</span>
+                            <span class="font-bold text-white">₹15,000</span>
+                        </div>
+                        <div class="flex justify-between items-center pt-4 text-base font-bold text-saudaGreen">
+                            <span>Total Initial Launch CapEx</span>
+                            <span class="text-xl">₹1,64,000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Monthly Operating Expenses Table -->
+                <div class="bg-slate-950 border border-slate-800 p-8 rounded-3xl shadow-xl">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center">
+                        <i data-lucide="pie-chart" class="w-5 h-5 mr-3 text-saudaGreen"></i> Monthly Recurring OpEx (Month 2 Scale)
+                    </h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center py-3 border-b border-slate-800 text-sm">
+                            <span class="text-slate-300">Salaried Team (1 Manager @ ₹10k + 12 Riders @ ₹7k)</span>
+                            <span class="font-bold text-white">₹94,000</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-slate-800 text-sm">
+                            <span class="text-slate-300">Overflow Fuel & Freelance Rider Pay (3,000 orders)</span>
+                            <span class="font-bold text-white">₹30,000</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-slate-800 text-sm">
+                            <span class="text-slate-300">App Maintenance & Tech Infrastructure</span>
+                            <span class="font-bold text-white">₹9,000</span>
+                        </div>
+                        <div class="flex justify-between items-center py-3 border-b border-slate-800 text-sm">
+                            <span class="text-slate-300">Local Digital & WhatsApp Influencer Seeding</span>
+                            <span class="font-bold text-white">₹15,000</span>
+                        </div>
+                        <div class="flex justify-between items-center pt-4 text-base font-bold text-white">
+                            <span>Total Monthly OpEx (3,000 orders)</span>
+                            <span class="text-xl">₹1,48,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator" class="py-24 bg-slate-950">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs uppercase tracking-widest text-saudaGreen font-bold bg-saudaGreen/10 px-3 py-1 rounded-full">Interactive Model</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3 mb-4">Jhansi Financial & Profit Simulator</h2>
+                <p class="text-slate-400">Adjust monthly order volume to forecast GMV, gross revenue, operating costs, and net monthly profit for investors.</p>
+            </div>
+
+            <div class="bg-slate-900 border border-slate-800 rounded-3xl p-8 lg:p-12 shadow-2xl max-w-4xl mx-auto">
+                <!-- Slider Control -->
+                <div class="mb-10">
+                    <div class="flex justify-between items-center mb-4">
+                        <label for="orderSlider" class="text-lg font-bold text-white">Target Monthly Orders in Jhansi:</label>
+                        <span id="orderDisplay" class="text-2xl font-extrabold text-saudaGreen bg-saudaGreen/10 px-4 py-1.5 rounded-xl border border-saudaGreen/30">3,000 Orders</span>
+                    </div>
+                    <input type="range" id="orderSlider" min="1000" max="8000" step="500" value="3000" 
+                        class="w-full h-3 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-saudaGreen">
+                    <div class="flex justify-between text-xs text-slate-500 mt-2 font-medium">
+                        <span>1,000 (Conservative Launch)</span>
+                        <span>3,000 (Month 2 Target)</span>
+                        <span>5,000 (Optimized Scale)</span>
+                        <span>8,000 (High Growth)</span>
+                    </div>
+                </div>
+
+                <!-- Simulation Output Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                    <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl text-center">
+                        <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-2">Monthly GMV</div>
+                        <div id="simGMV" class="text-3xl font-extrabold text-white">₹4,74,000</div>
+                        <div class="text-xs text-slate-500 mt-1">At ₹158 Average Order Value</div>
+                    </div>
+                    <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl text-center">
+                        <div class="text-slate-400 text-xs font-semibold uppercase tracking-wider mb-2">Gross Revenue (₹56/ord)</div>
+                        <div id="simRevenue" class="text-3xl font-extrabold text-saudaGreen">₹1,68,000</div>
+                        <div class="text-xs text-slate-500 mt-1">Commissions + Delivery + Platform Fee</div>
+                    </div>
+                    <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl text-center border-saudaGreen/50 bg-saudaGreen/5">
+                        <div class="text-saudaGreen text-xs font-bold uppercase tracking-wider mb-2">Net Monthly Profit</div>
+                        <div id="simProfit" class="text-3xl font-extrabold text-saudaGreen">₹52,000</div>
+                        <div id="simROI" class="text-xs text-saudaGreen/80 mt-1 font-semibold">31.7% Monthly Return on CapEx</div>
+                    </div>
+                </div>
+
+                <!-- Detailed Breakdown Box -->
+                <div class="bg-slate-950 border border-slate-800 p-6 rounded-2xl text-sm space-y-3">
+                    <div class="flex justify-between text-slate-300">
+                        <span>Total Monthly Operating Costs (Salaries + Fuel + Tech + Mktg):</span>
+                        <span id="simOpEx" class="font-bold text-white">₹1,16,000</span>
+                    </div>
+                    <div class="flex justify-between text-slate-300">
+                        <span>Initial CapEx Payback Period:</span>
+                        <span id="simPayback" class="font-bold text-saudaGreen">3.1 Months (or 2 Months at 4,000+ orders)</span>
+                    </div>
+                    <div class="flex justify-between text-slate-300 border-t border-slate-800 pt-3">
+                        <span class="font-bold text-white">Investor Value Proposition:</span>
+                        <span class="text-saudaGreen font-bold">Zero Burn, High Recurring Cash-Flow</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 border-t border-slate-800 py-12 text-center text-slate-500 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-center space-x-3 mb-4">
+                <div class="w-8 h-8 rounded-lg bg-saudaGreen flex items-center justify-center font-extrabold text-white">S</div>
+                <span class="text-lg font-bold text-white">Saudafy</span>
+            </div>
+            <p class="mb-4">Digitalizing Tier-2 and Tier-3 Uttar Pradesh • Built for Bharat's Hyperlocal Commerce</p>
+            <p class="text-xs text-slate-600">© 2026 Saudafy Technologies. All rights reserved. Confidential Investor Blueprint for Jhansi Expansion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
