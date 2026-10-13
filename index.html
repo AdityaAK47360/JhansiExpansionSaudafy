@@ -1,57 +1,305 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Saudafy — Investor Pitch</title>
-  <link rel="stylesheet" href="/styles.css" />
-  <style>
-    body{font-family:Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:32px; color:#111}
-    h1{color:#0d3b66}
-    .card{border:1px solid #e6e6e6;padding:20px;border-radius:10px;margin-bottom:20px;background:#fff}
-    a.button{display:inline-block;padding:10px 14px;background:#0b6e4f;color:#fff;border-radius:8px;text-decoration:none}
-    pre{white-space:pre-wrap;background:#f7f7f7;padding:12px;border-radius:6px}
-  </style>
-</head>
-<body>
-  <h1>Saudafy — Investor Pitch (Mauranipur)</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Saudafy is a hyperlocal commerce platform for Tier 3 and Tier 4 towns, showing investor return, Mauranipur traction, and market scalability."
+    />
+    <title>Saudafy | Investor Pitch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <div class="brand-mark">S</div>
+          <div>
+            <div class="brand-name">Saudafy</div>
+            <small>Hyperlocal Growth Platform</small>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#overview">Overview</a>
+          <a href="#model">Business Model</a>
+          <a href="#returns">Investor Returns</a>
+          <a href="#mauranipur">Mauranipur</a>
+        </nav>
+        <a href="#funding" class="btn btn-primary">Invest Now</a>
+      </div>
+    </header>
 
-  <div class="card">
-    <h2>What changed</h2>
-    <p>I added a new file <strong>INVESTOR_PITCH.md</strong> to this repository with a full, math-checked investor model based on the Mauranipur data you provided. The repo now contains that file and a Vercel config for static deployment.</p>
-    <p>Quick view: <a class="button" href="/INVESTOR_PITCH.md">Open INVESTOR_PITCH.md</a></p>
-  </div>
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">From Mauranipur to Bundelkhand</span>
+            <h1>Build a local commerce engine for small towns that actually works.</h1>
+            <p>
+              Saudafy helps local vendors reach customers, enables fast delivery, and turns
+              repeat orders into a profitable, scalable operating model for Tier 3 and Tier 4
+              towns across India.
+            </p>
 
-  <div class="card">
-    <h2>Direct investor summary (from the new file)</h2>
-    <ul>
-      <li>Example ask used in the model: ₹2,500,000 (changeable)</li>
-      <li>Cumulative undiscounted cash flow (Years 1–5): <strong>₹3,502,737</strong></li>
-      <li>Net gain after recovering capital: <strong>₹1,002,737</strong></li>
-      <li>Payback period: <strong>≈ 4.15 years</strong></li>
-      <li>Cash-on-cash multiple (5 years): <strong>1.40x</strong></li>
-    </ul>
-    <p>All figures use Mauranipur-sourced metrics where noted in the file (marked “from Mauranipur”).</p>
-  </div>
+            <div class="hero-actions">
+              <a href="#funding" class="btn btn-primary">View Investment Case</a>
+              <a href="#mauranipur" class="btn btn-secondary">Mauranipur Proof</a>
+            </div>
 
-  <div class="card">
-    <h2>Files in this repo (relevant)</h2>
-    <ul>
-      <li><a href="/INVESTOR_PITCH.md">INVESTOR_PITCH.md</a> — full investor model (new)</li>
-      <li><a href="/index.html">index.html</a> — this page</li>
-      <li><a href="/vercel.json">vercel.json</a> — Vercel config</li>
-    </ul>
-  </div>
+            <div class="hero-stats">
+              <div>
+                <strong>6,000+</strong>
+                <span>Customers</span>
+              </div>
+              <div>
+                <strong>56</strong>
+                <span>Active Vendors</span>
+              </div>
+              <div>
+                <strong>10,571</strong>
+                <span>Orders</span>
+              </div>
+            </div>
+          </div>
 
-  <div class="card">
-    <h2>Next steps to publish on Vercel</h2>
-    <ol>
-      <li>If your Vercel project is already linked to this GitHub repo, Vercel will auto-deploy on every push to main. Wait a few minutes and open your Vercel dashboard to see the latest deployment logs.</li>
-      <li>If not linked, go to <a href="https://vercel.com">vercel.com</a> → New Project → Import this repo and deploy. Use the default static settings.</li>
-      <li>If you want me to add a nicer investor HTML page instead of an MD link, I can commit investor.html with the full content rendered — tell me to proceed.</li>
-    </ol>
-  </div>
+          <div class="hero-panel">
+            <div class="glass-card">
+              <div class="panel-header">
+                <span class="dot green"></span>
+                <span>Projected Investor Snapshot</span>
+              </div>
+              <div class="return-box">
+                <label>Investment Ask</label>
+                <h3>₹2,500,000</h3>
+              </div>
+              <div class="mini-grid">
+                <div>
+                  <span>Cumulative Cash Flow</span>
+                  <strong>₹3.50M</strong>
+                </div>
+                <div>
+                  <span>Payback</span>
+                  <strong>4.15Y</strong>
+                </div>
+                <div>
+                  <span>Net Gain</span>
+                  <strong>₹1.00M</strong>
+                </div>
+                <div>
+                  <span>Cash-on-Cash</span>
+                  <strong>1.40x</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <footer style="margin-top:24px;color:#666">Last update: I committed this index change and INVESTOR_PITCH.md to the main branch. If you still do not see it on your Vercel site, either trigger a redeploy in Vercel or tell me and I will also add a dedicated investor HTML page so the content is visible immediately on the site.</footer>
-</body>
+      <section class="trust-strip">
+        <div class="container strip-inner">
+          <div><span>Live in</span><strong>Mauranipur</strong></div>
+          <div><span>Order fulfilment</span><strong>81.6%</strong></div>
+          <div><span>GMV growth</span><strong>80%</strong></div>
+          <div><span>Model</span><strong>Hyperlocal + delivery</strong></div>
+        </div>
+      </section>
+
+      <section id="overview" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow dark">Investor Overview</span>
+            <h2>Built for small-town economics, not metro assumptions.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon">01</div>
+              <h3>Local demand, local supply</h3>
+              <p>
+                Saudafy connects customers with nearby vendors and supports local commerce in
+                towns where distance, trust, and speed matter more than scale.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">02</div>
+              <h3>Three revenue streams</h3>
+              <p>
+                The business earns from vendor commissions, delivery fees, and a flat customer
+                platform fee on every order.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon">03</div>
+              <h3>Lean operations</h3>
+              <p>
+                A small local team, three salaried riders, and one freelance rider create a model
+                designed to keep operating costs controlled in smaller towns.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="model" class="section alt-section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow dark">Business model</span>
+            <h2>Revenue model with direct per-order economics</h2>
+          </div>
+
+          <div class="two-col">
+            <div class="card-block">
+              <h3>Revenue per typical order</h3>
+              <ul class="money-list">
+                <li><span>Vendor commission</span><strong>₹26</strong></li>
+                <li><span>Delivery charge</span><strong>₹20</strong></li>
+                <li><span>Platform fee</span><strong>₹10</strong></li>
+                <li class="total"><span>Total revenue per order</span><strong>₹56</strong></li>
+              </ul>
+            </div>
+
+            <div class="card-block">
+              <h3>Cost and profit per order</h3>
+              <ul class="money-list">
+                <li><span>Rider cost</span><strong>₹33</strong></li>
+                <li><span>Fuel cost</span><strong>₹10</strong></li>
+                <li><span>Stated profit</span><strong>₹13</strong></li>
+                <li class="total"><span>Revenue − cost</span><strong>₹56 − ₹33 − ₹10 = ₹13</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="returns" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow dark">Investor returns</span>
+            <h2>What an investor gets if capital is deployed</h2>
+          </div>
+
+          <div class="metric-grid">
+            <div class="metric-card accent">
+              <span>Investment Ask</span>
+              <strong>₹2,500,000</strong>
+            </div>
+            <div class="metric-card">
+              <span>Cumulative Cash Flow</span>
+              <strong>₹3,502,737</strong>
+            </div>
+            <div class="metric-card">
+              <span>Net Gain</span>
+              <strong>₹1,002,737</strong>
+            </div>
+            <div class="metric-card">
+              <span>Cash-on-Cash</span>
+              <strong>1.40x</strong>
+            </div>
+            <div class="metric-card">
+              <span>Payback</span>
+              <strong>4.15 Years</strong>
+            </div>
+            <div class="metric-card">
+              <span>Annualized Return</span>
+              <strong>~7.0%</strong>
+            </div>
+          </div>
+
+          <div class="projection-wrap">
+            <div class="table-box">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Year</th>
+                    <th>Revenue</th>
+                    <th>Cash Flow</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>1</td><td>₹1,600,000</td><td>₹318,400</td></tr>
+                  <tr><td>2</td><td>₹2,000,000</td><td>₹463,384</td></tr>
+                  <tr><td>3</td><td>₹2,500,000</td><td>₹648,987</td></tr>
+                  <tr><td>4</td><td>₹3,125,000</td><td>₹885,626</td></tr>
+                  <tr><td>5</td><td>₹3,906,250</td><td>₹1,186,340</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="formula-box" id="funding">
+              <h3>Use of funds</h3>
+              <ul>
+                <li><span>Operations & delivery readiness</span><strong>₹750,000</strong></li>
+                <li><span>Technology & app support</span><strong>₹400,000</strong></li>
+                <li><span>Vendor onboarding & local marketing</span><strong>₹500,000</strong></li>
+                <li><span>Working capital</span><strong>₹600,000</strong></li>
+                <li><span>Contingency</span><strong>₹250,000</strong></li>
+                <li class="total"><span>Total</span><strong>₹2,500,000</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="mauranipur" class="section alt-section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow dark">Mauranipur Proof</span>
+            <h2>Numbers already achieved in the operating town.</h2>
+          </div>
+
+          <div class="proof-grid">
+            <div class="proof-card">
+              <span>Customers till date</span>
+              <strong data-number="6000">0</strong>
+            </div>
+            <div class="proof-card">
+              <span>Active vendors</span>
+              <strong data-number="56">0</strong>
+            </div>
+            <div class="proof-card">
+              <span>Orders placed</span>
+              <strong data-number="10571">0</strong>
+            </div>
+            <div class="proof-card">
+              <span>Gross sales</span>
+              <strong data-number="1600000" prefix="₹">₹0</strong>
+            </div>
+            <div class="proof-card">
+              <span>Order fulfilment rate</span>
+              <strong data-number="81.6" suffix="%">0%</strong>
+            </div>
+            <div class="proof-card">
+              <span>GMV growth</span>
+              <strong data-number="80" suffix="%">0%</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section closing-section">
+        <div class="container closing-box">
+          <div>
+            <span class="eyebrow dark">Investment thesis</span>
+            <h2>Saudafy is a repeatable, small-town commerce model with measurable traction.</h2>
+          </div>
+          <a href="#top" class="btn btn-primary">Back to Top</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <p>Saudafy © 2026</p>
+        <p>Built for Tier 3 and Tier 4 market expansion</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
